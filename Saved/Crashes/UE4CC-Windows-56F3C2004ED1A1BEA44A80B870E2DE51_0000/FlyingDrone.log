@@ -1,0 +1,1498 @@
+﻿Log file open, 06/24/20 12:51:49
+LogInit: Display: Running engine for game: FlyingDrone
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.558230
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Project="C:/dev/FlyingDrone/FlyingDrone.uproject" -Output="C:/dev/FlyingDrone/Intermediate/TargetInfo.json"]
+LogInit: Warning: Incompatible or missing module: FlyingDrone
+Running C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/dev/FlyingDrone/FlyingDrone.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\dev\FlyingDrone).
+Creating makefile for FlyingDroneEditor (no existing makefile)
+@progress push 5%
+Parsing headers for FlyingDroneEditor
+  Running UnrealHeaderTool "C:\dev\FlyingDrone\FlyingDrone.uproject" "C:\dev\FlyingDrone\Intermediate\Build\Win64\FlyingDroneEditor\Development\FlyingDroneEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\pth08\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for FlyingDroneEditor in 5.3386114 seconds
+@progress pop
+Building FlyingDroneEditor...
+Using Visual Studio 2017 14.16.27035 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 9 actions with 12 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 11%
+  [1/9] Default.rc2
+  @progress 'Compiling C++ source code...' 22%
+  [2/9] SharedPCH.Engine.ShadowErrors.cpp
+  @progress 'Compiling C++ source code...' 33%
+  [3/9] FlyingDrone.cpp
+  @progress 'Compiling C++ source code...' 44%
+  [4/9] FlyingDrone.init.gen.cpp
+  @progress 'Compiling C++ source code...' 56%
+  [5/9] BasicCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 67%
+  [6/9] BasicCharacter.cpp
+  @progress 'Compiling C++ source code...' 78%
+  [7/9] UE4Editor-FlyingDrone.lib
+     C:\dev\FlyingDrone\Intermediate\Build\Win64\UE4Editor\Development\FlyingDrone\UE4Editor-FlyingDrone.lib ???̺귯?? ?? C:\dev\FlyingDrone\Intermediate\Build\Win64\UE4Editor\Development\FlyingDrone\UE4Editor-FlyingDrone.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+  @progress 'Compiling C++ source code...' 89%
+  [8/9] UE4Editor-FlyingDrone.dll
+     C:\dev\FlyingDrone\Intermediate\Build\Win64\UE4Editor\Development\FlyingDrone\UE4Editor-FlyingDrone.suppressed.lib ???̺귯?? ?? C:\dev\FlyingDrone\Intermediate\Build\Win64\UE4Editor\Development\FlyingDrone\UE4Editor-FlyingDrone.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+  @progress 'Compiling C++ source code...' 100%
+  [9/9] FlyingDroneEditor.target
+Total time in Parallel executor: 22.03 seconds
+Total execution time: 30.11 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 3600X 6-Core Processor             , GPU: NVIDIA GeForce GTX 1660 SUPER
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/dev/FlyingDrone/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.24-03.52.22:616][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.24-03.52.22:616][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.24-03.52.22:616][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/dev/FlyingDrone/Saved/Config/Windows/Engine.ini]
+[2020.06.24-03.52.22:616][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.24-03.52.22:616][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/dev/FlyingDrone/Saved/Config/Windows/Engine.ini]
+[2020.06.24-03.52.22:616][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/dev/FlyingDrone/Saved/Config/Windows/Engine.ini]
+[2020.06.24-03.52.22:616][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.24-03.52.22:616][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.24-03.52.22:616][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/dev/FlyingDrone/Saved/Config/Windows/Engine.ini]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.24-03.52.22:617][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/dev/FlyingDrone/Saved/Config/Windows/Engine.ini]
+[2020.06.24-03.52.22:617][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/dev/FlyingDrone/Saved/Config/Windows/Engine.ini]
+[2020.06.24-03.52.22:623][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.24-03.52.22:623][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.24-03.52.22:624][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.24-03.52.22:624][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.24-03.52.22:624][  0]LogHAL: Display: Platform has ~ 16 GB [17126629376 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.24-03.52.22:624][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.24-03.52.22:624][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.24-03.52.22:624][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/dev/FlyingDrone/Saved/Config/Windows/Scalability.ini]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.24-03.52.22:625][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.24-03.52.22:626][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.24-03.52.22:626][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.24-03.52.22:626][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.06.24-03.52.22:626][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/dev/FlyingDrone/Saved/Config/Windows/Engine.ini]
+[2020.06.24-03.52.22:626][  0]LogInit: Computer: DESKTOP-EO5RAPV
+[2020.06.24-03.52.22:626][  0]LogInit: User: pth08
+[2020.06.24-03.52.22:626][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.06.24-03.52.22:626][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.24-03.52.22:626][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.06.24-03.52.22:626][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.24-03.52.22:626][  0]LogMemory: Process Physical Memory: 126.42 MB used, 126.43 MB peak
+[2020.06.24-03.52.22:626][  0]LogMemory: Process Virtual Memory: 98.25 MB used, 98.25 MB peak
+[2020.06.24-03.52.22:626][  0]LogMemory: Physical Memory: 6069.45 MB used,  10263.78 MB free, 16333.23 MB total
+[2020.06.24-03.52.22:626][  0]LogMemory: Virtual Memory: 5230.39 MB used,  134212496.00 MB free, 134217728.00 MB total
+[2020.06.24-03.52.22:634][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.24-03.52.22:693][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.06.24-03.52.22:694][  0]LogInit: Using OS detected language (ko-KR).
+[2020.06.24-03.52.22:694][  0]LogInit: Using OS detected locale (ko-KR).
+[2020.06.24-03.52.22:704][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2020.06.24-03.52.22:775][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.24-03.52.22:819][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.24-03.52.22:819][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.24-03.52.23:094][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.24-03.52.23:094][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.24-03.52.23:094][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.24-03.52.23:094][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.24-03.52.23:183][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 SUPER' (Feature Level 11_0)
+[2020.06.24-03.52.23:183][  0]LogD3D11RHI:       5991/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.06.24-03.52.23:186][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.24-03.52.23:186][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.24-03.52.23:186][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.24-03.52.23:194][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.24-03.52.23:194][  0]LogD3D11RHI:     GPU DeviceId: 0x21c4 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.24-03.52.23:194][  0]LogWindows: EnumDisplayDevices:
+[2020.06.24-03.52.23:194][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:1)
+[2020.06.24-03.52.23:195][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 SUPER' (P:1 D:1)
+[2020.06.24-03.52.23:196][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2020.06.24-03.52.23:197][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2020.06.24-03.52.23:197][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.06.24-03.52.23:197][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 SUPER
+[2020.06.24-03.52.23:197][  0]LogD3D11RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.06.24-03.52.23:197][  0]LogD3D11RHI:      Driver Date: 3-17-2020
+[2020.06.24-03.52.23:197][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2020.06.24-03.52.23:242][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.06.24-03.52.23:244][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.06.24-03.52.23:244][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.24-03.52.23:244][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.06.24-03.52.23:268][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.06.24-03.52.23:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.24-03.52.23:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.24-03.52.23:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.24-03.52.23:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.24-03.52.23:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.24-03.52.23:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.24-03.52.23:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.24-03.52.23:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.24-03.52.23:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.24-03.52.23:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.24-03.52.23:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.24-03.52.23:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.24-03.52.23:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.24-03.52.23:651][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.06.24-03.52.23:664][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.24-03.52.23:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.24-03.52.23:689][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.24-03.52.23:701][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.24-03.52.23:714][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.24-03.52.23:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.24-03.52.23:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.24-03.52.23:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.24-03.52.23:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.24-03.52.23:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.24-03.52.23:793][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.24-03.52.23:806][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.24-03.52.23:819][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.24-03.52.23:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.24-03.52.23:831][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.24-03.52.23:845][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.24-03.52.23:965][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../../dev/FlyingDrone/Intermediate/Shaders/WorkingDirectory/12816/).
+[2020.06.24-03.52.23:965][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/pth08/AppData/Local/Temp/UnrealShaderWorkingDir/89DB4F9E41A39BD5532E909F4FB44027/'.
+[2020.06.24-03.52.23:966][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.24-03.52.23:966][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.24-03.52.23:966][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.24-03.52.24:682][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.24-03.52.24:716][  0]LogDerivedDataCache: Loaded boot cache 0.03s 75MB C:/Users/pth08/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.24-03.52.24:717][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/pth08/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.06.24-03.52.24:717][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../dev/FlyingDrone/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.24-03.52.24:717][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.24-03.52.24:717][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../dev/FlyingDrone/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.24-03.52.24:717][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.24-03.52.24:726][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.24-03.52.24:727][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.24-03.52.24:727][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.24-03.52.24:728][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pth08/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.24-03.52.24:728][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.24-03.52.24:728][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.24-03.52.24:769][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.24-03.52.24:770][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.24-03.52.24:795][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2020.06.24-03.52.25:014][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.24-03.52.25:137][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.24-03.52.25:137][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.24-03.52.25:137][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.24-03.52.25:137][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.24-03.52.25:137][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.24-03.52.25:156][  0]LogNetVersion: FlyingDrone 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1164214469)
+[2020.06.24-03.52.25:548][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002640A72F880), frame # 0
+[2020.06.24-03.52.25:548][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002640A74AAC0), frame # 0
+[2020.06.24-03.52.25:550][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002640A791E00), frame # 0
+[2020.06.24-03.52.25:597][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.042945 seconds
+[2020.06.24-03.52.25:601][  0]LogUObjectArray: 15921 objects as part of root set at end of initial load.
+[2020.06.24-03.52.25:601][  0]LogUObjectAllocator: 3966336 out of 0 bytes used by permanent object pool.
+[2020.06.24-03.52.25:601][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.24-03.52.26:134][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.24-03.52.26:141][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.24-03.52.26:587][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.06.24-03.52.26:587][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.06.24-03.52.26:593][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.06.24-03.52.26:599][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.06.24-03.52.26:613][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.06.24-03.52.27:037][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.24-03.52.27:071][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.24-03.52.27:071][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.24-03.52.27:142][  0]LogOcInput: OculusInput pre-init called
+[2020.06.24-03.52.27:164][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.24-03.52.27:164][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.24-03.52.27:240][  0]LogEngine: Initializing Engine...
+[2020.06.24-03.52.27:242][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.24-03.52.27:242][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.06.24-03.52.27:243][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.24-03.52.27:336][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.24-03.52.27:348][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.24-03.52.27:348][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026412317C00), frame # 0
+[2020.06.24-03.52.27:348][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026412388A40), frame # 0
+[2020.06.24-03.52.27:355][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.24-03.52.27:355][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.24-03.52.27:355][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.24-03.52.27:355][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.24-03.52.27:355][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.24-03.52.27:355][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.24-03.52.27:355][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.24-03.52.27:355][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.24-03.52.27:356][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.24-03.52.27:356][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.24-03.52.27:382][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.24-03.52.27:382][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.24-03.52.27:460][  0]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2020.06.24-03.52.27:461][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.24-03.52.27:465][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.24-03.52.27:465][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.24-03.52.27:466][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.24-03.52.27:466][  0]LogInit: FAudioDevice initialized.
+[2020.06.24-03.52.27:467][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.24-03.52.27:517][  0]LogDerivedDataCache: Saved boot cache 0.05s 75MB C:/Users/pth08/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.24-03.52.27:519][  0]LogInit: Texture streaming: Enabled
+[2020.06.24-03.52.27:547][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.24-03.52.27:547][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.24-03.52.27:552][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.24-03.52.27:597][  0]LogInit: Transaction tracking system initialized
+[2020.06.24-03.52.27:634][  0]BlueprintLog: New page: 에디터 로드
+[2020.06.24-03.52.27:751][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2020.06.24-03.52.27:970][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.24-03.52.27:970][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.24-03.52.28:192][  0]LogFileCache: Scanning file cache for directory 'C:/dev/FlyingDrone/Content/' took 0.00s
+[2020.06.24-03.52.28:390][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2020.06.24-03.52.28:390][  0]LogUnrealEdMisc: Loading editor; pre map load, took 42.193
+[2020.06.24-03.52.28:390][  0]Cmd: MAP LOAD FILE="../../../../../../dev/FlyingDrone/Content/FlyingBP/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.24-03.52.28:391][  0]LightingResults: New page: 라이팅 빌드
+[2020.06.24-03.52.28:391][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-03.52.28:392][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-03.52.28:392][  0]MapCheck: New page: 맵 체크
+[2020.06.24-03.52.28:392][  0]LightingResults: New page: 라이팅 빌드
+[2020.06.24-03.52.28:411][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026412317C00), frame # 0
+[2020.06.24-03.52.28:411][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026412388A40), frame # 0
+[2020.06.24-03.52.28:412][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.06.24-03.52.28:549][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2020.06.24-03.52.28:549][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026419E3FE00), frame # 0
+[2020.06.24-03.52.28:549][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026412B79D00), frame # 0
+[2020.06.24-03.52.28:568][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.24-03.52.28:581][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.06.24-03.52.28:581][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.24-03.52.28:582][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.398ms.
+[2020.06.24-03.52.28:582][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 0.192
+[2020.06.24-03.52.28:584][  0]LogUnrealEdMisc: Total Editor Startup Time, took 42.388
+[2020.06.24-03.52.28:713][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-03.52.28:719][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-03.52.28:724][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-03.52.28:729][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-03.52.28:755][  0]LogCollectionManager: Loaded 0 collections in 0.002020 seconds
+[2020.06.24-03.52.28:769][  0]LogFileCache: Scanning file cache for directory 'C:/dev/FlyingDrone/Saved/Collections/' took 0.00s
+[2020.06.24-03.52.28:769][  0]LogFileCache: Scanning file cache for directory 'C:/dev/FlyingDrone/Content/Developers/pth08/Collections/' took 0.00s
+[2020.06.24-03.52.28:769][  0]LogFileCache: Scanning file cache for directory 'C:/dev/FlyingDrone/Content/Collections/' took 0.00s
+[2020.06.24-03.52.28:769][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3430 classes and 826 folders.
+[2020.06.24-03.52.28:772][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.24-03.52.28:836][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.24-03.52.28:838][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.06.24-03.52.29:226][  0]LogSlate: Took 0.000650 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.24-03.52.29:228][  0]LogSlate: Took 0.001236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2020.06.24-03.52.29:232][  0]LogSlate: Took 0.001318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2020.06.24-03.52.29:232][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.24-03.52.29:234][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.24-03.52.29:295][  0]LogRenderer: Reallocating scene render targets to support 980x560 Format 10 NumSamples 1 (Frame:1).
+[2020.06.24-03.52.29:394][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.24-03.52.29:394][  0]LogLoad: (Engine Initialization) Total time: 43.20 seconds
+[2020.06.24-03.52.29:394][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.24-03.52.29:556][  0]LogAssetRegistry: Asset discovery search completed in 4.7619 seconds
+[2020.06.24-03.52.29:559][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.06.24-03.52.29:560][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.24-03.52.29:582][  0]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.24-03.52.30:418][ 93]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.24-03.52.32:582][294]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Dev/Copy_FlyingPawn.Copy_FlyingPawn
+[2020.06.24-03.52.32:793][294]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.06.24-03.52.33:594][294]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.24-03.52.33:793][295]LogSlate: Took 0.000892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.24-03.52.35:672][497]LogSlate: Window 'Copy_FlyingPawn' being destroyed
+[2020.06.24-04.11.57:274][ 48]LogSlate: Window '부모 클래스 선택' being destroyed
+[2020.06.24-04.13.03:231][302]LogSlate: Window '부모 클래스 선택' being destroyed
+[2020.06.24-04.13.06:293][648]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetTileView [SAssetView.cpp(1862)].
+[2020.06.24-04.13.06:335][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.06.24-04.13.06:336][648]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.023
+[2020.06.24-04.13.06:338][648]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Dev/Maps/Title/BP] ([1] browsable assets)...
+[2020.06.24-04.13.06:338][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/Dev/Maps/Title/BP]
+[2020.06.24-04.13.06:338][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Title/BP" FILE="../../../../../../dev/FlyingDrone/Saved/Autosaves/Game/Dev/Maps/Title/BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.06.24-04.13.06:344][648]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/BP_Auto1F7730C55418FB578459346BBA0BED390.tmp' to '../../../../../../dev/FlyingDrone/Saved/Autosaves/Game/Dev/Maps/Title/BP_Auto1.uasset'
+[2020.06.24-04.13.06:346][648]LogFileHelpers: Auto-saving content packages took 0.009
+[2020.06.24-04.13.12:416][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.06.24-04.13.12:417][370]LogMetaData: Removing '/Game/Dev/Maps/Title/BP_TitleGM.BP_TitleGM:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Dev/Maps/Title/BP.PackageMetaData'
+[2020.06.24-04.13.12:417][370]LogMetaData: Removing '/Game/Dev/Maps/Title/BP_TitleGM.SKEL_BP_TitleGM_C' ref from Metadata '/Game/Dev/Maps/Title/BP.PackageMetaData'
+[2020.06.24-04.13.12:417][370]LogMetaData: Removing '/Game/Dev/Maps/Title/BP_TitleGM.BP_TitleGM_C' ref from Metadata '/Game/Dev/Maps/Title/BP.PackageMetaData'
+[2020.06.24-04.13.12:417][370]LogMetaData: Removing '/Game/Dev/Maps/Title/BP_TitleGM.BP_TitleGM:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Dev/Maps/Title/BP.PackageMetaData'
+[2020.06.24-04.13.12:417][370]LogMetaData: Removing '/Game/Dev/Maps/Title/BP_TitleGM.BP_TitleGM:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Dev/Maps/Title/BP.PackageMetaData'
+[2020.06.24-04.13.12:446][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Title/BP_TitleGM" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/BP_TitleGM.uasset" SILENT=true
+[2020.06.24-04.13.12:453][370]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/BP_TitleGMB939C29F4E89170DE30959BA122BA99F.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/BP_TitleGM.uasset'
+[2020.06.24-04.13.12:594][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.06.24-04.13.12:619][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.06.24-04.13.12:635][370]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2020.06.24-04.13.12:667][370]AssetCheck: New page: 애셋 저장: BP_TitleGM
+[2020.06.24-04.13.12:667][370]LogContentValidation: Display: Blueprint /Game/Dev/Maps/Title/BP_TitleGM.BP_TitleGM 유효성 검사
+[2020.06.24-04.13.20:767][859]LogSlate: Window '부모 클래스 선택' being destroyed
+[2020.06.24-04.13.28:429][754]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Dev/Maps/Title/BP_TitleGM.BP_TitleGM
+[2020.06.24-04.13.28:794][755]LogRenderer: Reallocating scene render targets to support 1144x708 Format 10 NumSamples 1 (Frame:1).
+[2020.06.24-04.13.36:924][691]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.24-04.13.41:633][227]BlueprintLog: New page: BP_TitleGM 컴파일
+[2020.06.24-04.13.41:663][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.06.24-04.13.41:695][227]LogSlate: Took 0.000758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.06.24-04.13.41:700][227]LogSlate: Took 0.004556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2020.06.24-04.13.42:179][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Title/BP_TitleGM" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/BP_TitleGM.uasset" SILENT=true
+[2020.06.24-04.13.42:187][281]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/BP_TitleGM8E13557F4C68BDC6DA75E4B6FBD20F91.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/BP_TitleGM.uasset'
+[2020.06.24-04.13.42:200][281]AssetCheck: New page: 애셋 저장: BP_TitleGM
+[2020.06.24-04.13.42:200][281]LogContentValidation: Display: Blueprint /Game/Dev/Maps/Title/BP_TitleGM.BP_TitleGM 유효성 검사
+[2020.06.24-04.13.44:113][433]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Dev/Maps/Title/Title.Title
+[2020.06.24-04.13.44:131][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.06.24-04.13.45:604][433]LogSlate: Window '콘텐츠 저장' being destroyed
+[2020.06.24-04.13.46:333][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2020.06.24-04.13.47:288][512]LogSlate: Window '콘텐츠 저장' being destroyed
+[2020.06.24-04.13.47:314][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Title/BP_TitlePC" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/BP_TitlePC.uasset" SILENT=true
+[2020.06.24-04.13.47:319][512]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/BP_TitlePC8696EC50457A3C316EA55AAD7DB891CC.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/BP_TitlePC.uasset'
+[2020.06.24-04.13.47:321][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Title/Title" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.24-04.13.47:341][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2020.06.24-04.13.47:346][512]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/Title72ECB1864EE304B10E86A6AA86FB52A4.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap'
+[2020.06.24-04.13.47:347][512]LogFileHelpers: Saving map 'Title' took 0.026
+[2020.06.24-04.13.47:364][512]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2020.06.24-04.13.47:364][512]LogContentValidation: Display: Blueprint /Game/Dev/Maps/Title/BP_TitlePC.BP_TitlePC 유효성 검사
+[2020.06.24-04.13.47:364][512]LogContentValidation: Display: World /Game/Dev/Maps/Title/Title.Title 유효성 검사
+[2020.06.24-04.13.48:646][663]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Dev/Maps/Title/Title.Title
+[2020.06.24-04.13.48:674][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.06.24-04.13.48:675][663]Cmd: MAP LOAD FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.24-04.13.48:675][663]LightingResults: New page: 라이팅 빌드
+[2020.06.24-04.13.48:675][663]LoadErrors: New page: 맵 로드중: Title.umap
+[2020.06.24-04.13.48:701][663]LogWorld: UWorld::CleanupWorld for FlyingExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-04.13.48:701][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.13.48:701][663]MapCheck: New page: 맵 체크
+[2020.06.24-04.13.48:701][663]LightingResults: New page: 라이팅 빌드
+[2020.06.24-04.13.48:721][663]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026419E3FE00), frame # 18663
+[2020.06.24-04.13.48:721][663]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026412B79D00), frame # 18663
+[2020.06.24-04.13.48:722][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.06.24-04.13.48:775][663]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.24-04.13.48:775][663]LogAIModule: Creating AISystem for world Title
+[2020.06.24-04.13.48:775][663]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000264381FA600), frame # 18663
+[2020.06.24-04.13.48:775][663]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002641B03FB00), frame # 18663
+[2020.06.24-04.13.48:795][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.06.24-04.13.48:811][663]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.24-04.13.48:811][663]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.243ms.
+[2020.06.24-04.13.48:811][663]LogFileHelpers: Loading map 'Title' took 0.136
+[2020.06.24-04.13.52:387][ 84]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.24-04.14.00:528][  3]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2020.06.24-04.14.01:773][  3]LogSlate: Window '콘텐츠 저장' being destroyed
+[2020.06.24-04.14.01:797][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Title/Title" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.24-04.14.01:818][  3]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2020.06.24-04.14.01:824][  3]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/TitleF1D3DA294104EB6FC2D43389D39437FF.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap'
+[2020.06.24-04.14.01:841][  3]LogFileHelpers: Saving map 'Title' took 0.045
+[2020.06.24-04.14.01:851][  3]AssetCheck: New page: 애셋 저장: Title
+[2020.06.24-04.14.01:851][  3]LogContentValidation: Display: World /Game/Dev/Maps/Title/Title.Title 유효성 검사
+[2020.06.24-04.14.22:566][400]LogActorFactory: Actor Factory created Cylinder
+[2020.06.24-04.14.23:935][563]LogActorFactory: Actor Factory created Cylinder
+[2020.06.24-04.14.30:291][318]LogEditorViewport: Clicking Background
+[2020.06.24-04.14.39:924][412]LogEditorViewport: Clicking on Actor (context menu): DirectionalLight (DirectionalLight)
+[2020.06.24-04.14.40:608][492]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2020.06.24-04.14.51:965][832]LogEditorViewport: Clicking Background
+[2020.06.24-04.14.56:396][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.06.24-04.14.59:338][687]LogEditorViewport: Clicking Background
+[2020.06.24-04.14.59:704][730]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.06.24-04.15.06:259][511]LogEditorViewport: Clicking Background
+[2020.06.24-04.15.18:109][928]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2020.06.24-04.15.21:961][369]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.06.24-04.15.39:331][404]LogEditorViewport: Clicking Background
+[2020.06.24-04.15.39:888][470]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2020.06.24-04.15.51:552][848]LogEditorViewport: Clicking Background
+[2020.06.24-04.15.59:175][757]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.06.24-04.15.59:186][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.24-04.15.59:186][757]PIE: New page: PIE 세션: Title (2020. 6. 24. 오후 10:15:59)
+[2020.06.24-04.15.59:187][757]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.24-04.15.59:188][757]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.06.24-04.15.59:188][757]LogPlayLevel: Creating play world package: /Game/Dev/Maps/Title/UEDPIE_0_Title
+[2020.06.24-04.15.59:189][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000907s)
+[2020.06.24-04.15.59:190][757]LogAIModule: Creating AISystem for world Title
+[2020.06.24-04.15.59:190][757]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000264461B8200), frame # 33757
+[2020.06.24-04.15.59:190][757]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026424BAE980), frame # 33757
+[2020.06.24-04.15.59:190][757]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2020.06.24-04.15.59:190][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dev/Maps/Title/Title.Title to /Game/Dev/Maps/Title/UEDPIE_0_Title.Title (0.001887s)
+[2020.06.24-04.15.59:209][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.06.24-04.15.59:211][757]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.24-04.15.59:211][757]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.24-04.15.59:211][757]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.24-04.15.59:211][757]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.24-04.15.59:211][757]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.24-04.15.59:211][757]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.24-04.15.59:211][757]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.24-04.15.59:211][757]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.24-04.15.59:211][757]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.24-04.15.59:211][757]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.24-04.15.59:223][757]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.24-04.15.59:223][757]LogAudioMixer: Display: 1: FrontRight
+[2020.06.24-04.15.59:261][757]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2020.06.24-04.15.59:261][757]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.24-04.15.59:261][757]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.24-04.15.59:261][757]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.24-04.15.59:262][757]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.24-04.15.59:272][757]LogInit: FAudioDevice initialized.
+[2020.06.24-04.15.59:281][757]LogLoad: Game class is 'BP_TitleGM_C'
+[2020.06.24-04.15.59:282][757]LogWorld: Bringing World /Game/Dev/Maps/Title/UEDPIE_0_Title.Title up for play (max tick rate 0) at 2020.06.24-13.15.59
+[2020.06.24-04.15.59:282][757]LogWorld: Bringing up level for play took: 0.000376
+[2020.06.24-04.15.59:283][757]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.06.24-04.15.59:288][757]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.06.24-04.15.59:289][757]PIE: 서버가 로그인했습니다.
+[2020.06.24-04.15.59:291][757]PIE: 에디터에서 플레이 총 시작 시간 0.106초입니다.
+[2020.06.24-04.16.04:442][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-04.16.04:442][338]LogWorld: BeginTearingDown for /Game/Dev/Maps/Title/UEDPIE_0_Title
+[2020.06.24-04.16.04:442][338]LogWorld: UWorld::CleanupWorld for Title, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-04.16.04:442][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.16.04:453][338]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.24-04.16.04:456][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.16.04:488][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-04.16.04:493][338]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026424BAE980), frame # 34338
+[2020.06.24-04.16.04:493][338]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000264461B8200), frame # 34338
+[2020.06.24-04.16.04:512][338]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2020.06.24-04.16.04:533][339]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.06.24-04.16.26:546][430]LogSlate: Window '부모 클래스 선택' being destroyed
+[2020.06.24-04.16.39:123][573]LogSlate: Window '부모 클래스 선택' being destroyed
+[2020.06.24-04.16.49:815][828]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Dev/Maps/Lobby/Lobby.Lobby
+[2020.06.24-04.16.49:844][828]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.06.24-04.16.52:109][828]LogSlate: Window '콘텐츠 저장' being destroyed
+[2020.06.24-04.16.52:123][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Lobby/BP_LobbyGM" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/BP_LobbyGM.uasset" SILENT=true
+[2020.06.24-04.16.52:128][828]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/BP_LobbyGM7BE0EE9E4A9EDB3193311FBF5C6D11A9.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/BP_LobbyGM.uasset'
+[2020.06.24-04.16.52:130][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Lobby/BP_LobbyPC" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/BP_LobbyPC.uasset" SILENT=true
+[2020.06.24-04.16.52:135][828]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/BP_LobbyPCF888D60E4688B57653B34788E1CAE213.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/BP_LobbyPC.uasset'
+[2020.06.24-04.16.52:137][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Lobby/Lobby" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.24-04.16.52:158][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.06.24-04.16.52:162][828]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/Lobby895963BD4911979F2D2C12B59BC25D14.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/Lobby.umap'
+[2020.06.24-04.16.52:163][828]LogFileHelpers: Saving map 'Lobby' took 0.027
+[2020.06.24-04.16.52:164][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Title/Title" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.24-04.16.52:186][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.06.24-04.16.52:195][828]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/Title633B23E44D0839DD5275D0A170CDB7CD.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap'
+[2020.06.24-04.16.52:212][828]LogFileHelpers: Saving map 'Title' took 0.049
+[2020.06.24-04.16.52:212][828]Cmd: MAP LOAD FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.24-04.16.52:212][828]LightingResults: New page: 라이팅 빌드
+[2020.06.24-04.16.52:212][828]LoadErrors: New page: 맵 로드중: Lobby.umap
+[2020.06.24-04.16.52:250][828]LogWorld: UWorld::CleanupWorld for Title, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-04.16.52:250][828]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.16.52:251][828]MapCheck: New page: 맵 체크
+[2020.06.24-04.16.52:251][828]LightingResults: New page: 라이팅 빌드
+[2020.06.24-04.16.52:270][828]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002641B03FB00), frame # 38828
+[2020.06.24-04.16.52:270][828]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000264381FA600), frame # 38828
+[2020.06.24-04.16.52:272][828]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.06.24-04.16.52:343][828]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.24-04.16.52:343][828]LogAIModule: Creating AISystem for world Lobby
+[2020.06.24-04.16.52:343][828]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026439DA3A00), frame # 38828
+[2020.06.24-04.16.52:343][828]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002641E2065C0), frame # 38828
+[2020.06.24-04.16.52:366][828]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2020.06.24-04.16.52:382][828]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.24-04.16.52:383][828]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.252ms.
+[2020.06.24-04.16.52:383][828]LogFileHelpers: Loading map 'Lobby' took 0.170
+[2020.06.24-04.16.52:425][828]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2020.06.24-04.16.52:425][828]LogContentValidation: Display: Blueprint /Game/Dev/Maps/Lobby/BP_LobbyGM.BP_LobbyGM 유효성 검사
+[2020.06.24-04.16.52:425][828]LogContentValidation: Display: Blueprint /Game/Dev/Maps/Lobby/BP_LobbyPC.BP_LobbyPC 유효성 검사
+[2020.06.24-04.16.52:425][828]LogContentValidation: Display: World /Game/Dev/Maps/Lobby/Lobby.Lobby 유효성 검사
+[2020.06.24-04.16.52:425][828]LogContentValidation: Display: World /Game/Dev/Maps/Title/Title.Title 유효성 검사
+[2020.06.24-04.17.03:581][131]LogEditorViewport: Clicking Background
+[2020.06.24-04.17.04:909][289]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2020.06.24-04.17.06:460][471]LogEditorViewport: Clicking Background
+[2020.06.24-04.17.10:391][931]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2020.06.24-04.17.16:257][624]LogEditorViewport: Clicking Background
+[2020.06.24-04.17.17:526][771]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2020.06.24-04.17.19:175][955]LogEditorViewport: Clicking Background
+[2020.06.24-04.17.19:708][ 18]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2020.06.24-04.17.23:748][479]LogEditorViewport: Clicking Background
+[2020.06.24-04.17.27:930][971]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Dev/Maps/Title/Title.Title
+[2020.06.24-04.17.27:955][971]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2020.06.24-04.17.29:576][971]LogSlate: Window '콘텐츠 저장' being destroyed
+[2020.06.24-04.17.29:590][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Lobby/Lobby" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.24-04.17.29:613][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.06.24-04.17.29:620][971]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/LobbyA28257964EF33BFF31DDCF83E455434D.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/Lobby.umap'
+[2020.06.24-04.17.29:638][971]LogFileHelpers: Saving map 'Lobby' took 0.049
+[2020.06.24-04.17.29:638][971]Cmd: MAP LOAD FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.24-04.17.29:638][971]LightingResults: New page: 라이팅 빌드
+[2020.06.24-04.17.29:639][971]LoadErrors: New page: 맵 로드중: Title.umap
+[2020.06.24-04.17.29:670][971]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-04.17.29:670][971]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.17.29:670][971]MapCheck: New page: 맵 체크
+[2020.06.24-04.17.29:670][971]LightingResults: New page: 라이팅 빌드
+[2020.06.24-04.17.29:690][971]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002641E2065C0), frame # 42971
+[2020.06.24-04.17.29:690][971]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026439DA3A00), frame # 42971
+[2020.06.24-04.17.29:693][971]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.06.24-04.17.29:767][971]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.24-04.17.29:767][971]LogAIModule: Creating AISystem for world Title
+[2020.06.24-04.17.29:767][971]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000264438D7E00), frame # 42971
+[2020.06.24-04.17.29:767][971]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002642D18F600), frame # 42971
+[2020.06.24-04.17.29:792][971]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.06.24-04.17.29:823][971]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.24-04.17.29:823][971]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.219ms.
+[2020.06.24-04.17.29:823][971]LogFileHelpers: Loading map 'Title' took 0.185
+[2020.06.24-04.17.29:849][971]AssetCheck: New page: 애셋 저장: Lobby
+[2020.06.24-04.17.29:849][971]LogContentValidation: Display: World /Game/Dev/Maps/Lobby/Lobby.Lobby 유효성 검사
+[2020.06.24-04.17.30:821][ 81]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2020.06.24-04.17.31:161][119]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2020.06.24-04.17.35:931][673]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.06.24-04.17.36:837][673]LogSlate: Window '콘텐츠 저장' being destroyed
+[2020.06.24-04.17.36:863][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Title/Title" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.24-04.17.36:885][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.06.24-04.17.36:893][673]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/TitleE538CBDF4C0AB373FA52069059EE0A2C.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap'
+[2020.06.24-04.17.36:910][673]LogFileHelpers: Saving map 'Title' took 0.048
+[2020.06.24-04.17.36:923][673]AssetCheck: New page: 애셋 저장: Title
+[2020.06.24-04.17.36:924][673]LogContentValidation: Display: World /Game/Dev/Maps/Title/Title.Title 유효성 검사
+[2020.06.24-04.17.41:747][245]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Dev/Maps/Lobby/Lobby.Lobby
+[2020.06.24-04.17.41:768][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.06.24-04.17.41:769][245]Cmd: MAP LOAD FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.24-04.17.41:769][245]LightingResults: New page: 라이팅 빌드
+[2020.06.24-04.17.41:769][245]LoadErrors: New page: 맵 로드중: Lobby.umap
+[2020.06.24-04.17.41:790][245]LogWorld: UWorld::CleanupWorld for Title, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-04.17.41:790][245]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.17.41:790][245]MapCheck: New page: 맵 체크
+[2020.06.24-04.17.41:790][245]LightingResults: New page: 라이팅 빌드
+[2020.06.24-04.17.41:810][245]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002642D18F600), frame # 44245
+[2020.06.24-04.17.41:810][245]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000264438D7E00), frame # 44245
+[2020.06.24-04.17.41:812][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.06.24-04.17.41:901][245]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.24-04.17.41:901][245]LogAIModule: Creating AISystem for world Lobby
+[2020.06.24-04.17.41:901][245]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000264442D9E00), frame # 44245
+[2020.06.24-04.17.41:901][245]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002642D1874C0), frame # 44245
+[2020.06.24-04.17.41:925][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.06.24-04.17.41:941][245]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.24-04.17.41:941][245]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.207ms.
+[2020.06.24-04.17.41:941][245]LogFileHelpers: Loading map 'Lobby' took 0.173
+[2020.06.24-04.17.46:136][740]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.24-04.17.52:695][487]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Dev/Maps/Lobby/BP_LobbyGM.BP_LobbyGM
+[2020.06.24-04.18.11:549][639]BlueprintLog: New page: BP_LobbyGM 컴파일
+[2020.06.24-04.18.11:588][639]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.06.24-04.18.12:130][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Lobby/BP_LobbyGM" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/BP_LobbyGM.uasset" SILENT=true
+[2020.06.24-04.18.12:137][699]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/BP_LobbyGM724B436443FE75B4CF313A8ED8B0F010.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/BP_LobbyGM.uasset'
+[2020.06.24-04.18.12:153][699]AssetCheck: New page: 애셋 저장: BP_LobbyGM
+[2020.06.24-04.18.12:153][699]LogContentValidation: Display: Blueprint /Game/Dev/Maps/Lobby/BP_LobbyGM.BP_LobbyGM 유효성 검사
+[2020.06.24-04.22.07:301][ 60]LogObjectTools: Deleting 1 worlds: /Game/Dev/Maps/Stage/NewWorld.NewWorld
+[2020.06.24-04.22.07:301][ 60]LogObjectTools: Currently 9 active worlds: /Game/Dev/Maps/Lobby/Lobby.Lobby, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7
+[2020.06.24-04.22.07:330][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2020.06.24-04.22.08:624][ 60]LogSlate: Window 'Delete Assets' being destroyed
+[2020.06.24-04.22.08:643][ 60]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-04.22.08:643][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.22.08:714][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.06.24-04.23.03:937][350]LogSlate: Window '부모 클래스 선택' being destroyed
+[2020.06.24-04.23.14:156][363]LogSlate: Window '부모 클래스 선택' being destroyed
+[2020.06.24-04.23.29:881][235]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Dev/Maps/Stage/BP_StageGM.BP_StageGM
+[2020.06.24-04.23.33:623][634]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.24-04.23.38:999][251]BlueprintLog: New page: BP_StageGM 컴파일
+[2020.06.24-04.23.39:043][251]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.06.24-04.23.39:845][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Stage/BP_StageGM" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Stage/BP_StageGM.uasset" SILENT=true
+[2020.06.24-04.23.39:851][342]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/BP_StageGMB76C8B4F42668EBFE73ABEBE8781F243.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Stage/BP_StageGM.uasset'
+[2020.06.24-04.23.39:864][342]AssetCheck: New page: 애셋 저장: BP_StageGM
+[2020.06.24-04.23.39:864][342]LogContentValidation: Display: Blueprint /Game/Dev/Maps/Stage/BP_StageGM.BP_StageGM 유효성 검사
+[2020.06.24-04.24.22:749][ 20]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Dev/Maps/Title/Title.Title
+[2020.06.24-04.24.22:776][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.06.24-04.24.24:752][ 20]LogSlate: Window '콘텐츠 저장' being destroyed
+[2020.06.24-04.24.25:667][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.06.24-04.24.26:881][115]LogSlate: Window '콘텐츠 저장' being destroyed
+[2020.06.24-04.24.26:912][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Lobby/Lobby" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/Lobby.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.24-04.24.26:937][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.06.24-04.24.26:946][115]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/Lobby30F494BB4F992C75C512CB9A34B3191E.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Lobby/Lobby.umap'
+[2020.06.24-04.24.26:963][115]LogFileHelpers: Saving map 'Lobby' took 0.052
+[2020.06.24-04.24.26:964][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Stage/BP_StagePC" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Stage/BP_StagePC.uasset" SILENT=true
+[2020.06.24-04.24.26:969][115]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/BP_StagePC8706AEB84EE5DF3E50B410B0A07C13BF.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Stage/BP_StagePC.uasset'
+[2020.06.24-04.24.26:971][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Stage/Stage1/Stage1" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Stage/Stage1/Stage1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.24-04.24.27:001][115]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.06.24-04.24.27:005][115]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/Stage15BFFD39448842B5CA27414BB41D80BCF.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Stage/Stage1/Stage1.umap'
+[2020.06.24-04.24.27:006][115]LogFileHelpers: Saving map 'Stage1' took 0.036
+[2020.06.24-04.24.27:028][115]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2020.06.24-04.24.27:028][115]LogContentValidation: Display: World /Game/Dev/Maps/Lobby/Lobby.Lobby 유효성 검사
+[2020.06.24-04.24.27:028][115]LogContentValidation: Display: Blueprint /Game/Dev/Maps/Stage/BP_StagePC.BP_StagePC 유효성 검사
+[2020.06.24-04.24.27:029][115]LogContentValidation: Display: World /Game/Dev/Maps/Stage/Stage1/Stage1.Stage1 유효성 검사
+[2020.06.24-04.24.27:695][189]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Dev/Maps/Title/Title.Title
+[2020.06.24-04.24.27:721][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.06.24-04.24.27:722][189]Cmd: MAP LOAD FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.24-04.24.27:722][189]LightingResults: New page: 라이팅 빌드
+[2020.06.24-04.24.27:722][189]LoadErrors: New page: 맵 로드중: Title.umap
+[2020.06.24-04.24.27:760][189]LogWorld: UWorld::CleanupWorld for Lobby, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-04.24.27:760][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.24.27:761][189]MapCheck: New page: 맵 체크
+[2020.06.24-04.24.27:761][189]LightingResults: New page: 라이팅 빌드
+[2020.06.24-04.24.27:787][189]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002642D1874C0), frame # 63189
+[2020.06.24-04.24.27:787][189]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000264442D9E00), frame # 63189
+[2020.06.24-04.24.27:789][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.06.24-04.24.27:817][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.06.24-04.24.27:843][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.06.24-04.24.27:903][189]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.24-04.24.27:903][189]LogAIModule: Creating AISystem for world Title
+[2020.06.24-04.24.27:903][189]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000264C2129800), frame # 63189
+[2020.06.24-04.24.27:903][189]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026438C26200), frame # 63189
+[2020.06.24-04.24.27:934][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.06.24-04.24.27:950][189]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.24-04.24.27:951][189]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.22ms.
+[2020.06.24-04.24.27:951][189]LogFileHelpers: Loading map 'Title' took 0.229
+[2020.06.24-04.26.05:866][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.06.24-04.26.26:535][781]LogEditorViewport: Clicking Background
+[2020.06.24-04.27.22:530][768]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{ea94bf7d-5db0-4bfd-a877-25fd1cd9f081}.
+[2020.06.24-04.27.22:530][768]LogTemp: Resetting audio stream to device id 
+[2020.06.24-04.27.22:552][768]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.24-04.27.22:552][768]LogAudioMixer: Display: 1: FrontRight
+[2020.06.24-04.27.54:294][759]LogEditorViewport: Clicking Background
+[2020.06.24-04.28.08:901][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.06.24-04.28.09:917][625]Cmd: DELETE
+[2020.06.24-04.28.09:917][625]Cmd: ACTOR DELETE
+[2020.06.24-04.28.09:921][625]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.24-04.28.09:949][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.06.24-04.28.09:951][625]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2020.06.24-04.28.10:994][748]LogActorFactory: Actor Factory created Cube
+[2020.06.24-04.28.11:785][842]LogActorFactory: Actor Factory created Cube
+[2020.06.24-04.28.46:614][884]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.06.24-04.28.48:306][ 74]Cmd: DELETE
+[2020.06.24-04.28.48:306][ 74]Cmd: ACTOR DELETE
+[2020.06.24-04.28.48:307][ 74]LogEditorActor: Deleted Actor: PointLight
+[2020.06.24-04.28.48:336][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.06.24-04.28.48:338][ 74]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2020.06.24-04.28.49:073][162]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2020.06.24-04.29.08:678][448]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.24-04.29.09:755][576]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.24-04.29.12:666][909]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.06.24-04.29.12:677][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.24-04.29.12:677][909]PIE: New page: PIE 세션: Title (2020. 6. 24. 오후 10:29:12)
+[2020.06.24-04.29.12:717][909]LogPlayLevel: Creating play world package: /Game/Dev/Maps/Title/UEDPIE_0_Title
+[2020.06.24-04.29.12:718][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001090s)
+[2020.06.24-04.29.12:719][909]LogAIModule: Creating AISystem for world Title
+[2020.06.24-04.29.12:719][909]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002644357C800), frame # 80909
+[2020.06.24-04.29.12:719][909]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000264B7194540), frame # 80909
+[2020.06.24-04.29.12:719][909]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2020.06.24-04.29.12:719][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dev/Maps/Title/Title.Title to /Game/Dev/Maps/Title/UEDPIE_0_Title.Title (0.002303s)
+[2020.06.24-04.29.12:749][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.06.24-04.29.12:750][909]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.24-04.29.12:750][909]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.24-04.29.12:750][909]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.24-04.29.12:750][909]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.24-04.29.12:750][909]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.24-04.29.12:750][909]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.24-04.29.12:750][909]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.24-04.29.12:750][909]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.24-04.29.12:751][909]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.24-04.29.12:751][909]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.24-04.29.12:762][909]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.24-04.29.12:762][909]LogAudioMixer: Display: 1: FrontRight
+[2020.06.24-04.29.12:798][909]LogAudioMixer: Display: Using Audio Device T23C350(2- NVIDIA High Definition Audio)
+[2020.06.24-04.29.12:799][909]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.24-04.29.12:799][909]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.24-04.29.12:799][909]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.24-04.29.12:799][909]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.24-04.29.12:810][909]LogInit: FAudioDevice initialized.
+[2020.06.24-04.29.12:819][909]LogLoad: Game class is 'BP_TitleGM_C'
+[2020.06.24-04.29.12:820][909]LogWorld: Bringing World /Game/Dev/Maps/Title/UEDPIE_0_Title.Title up for play (max tick rate 0) at 2020.06.24-13.29.12
+[2020.06.24-04.29.12:820][909]LogWorld: Bringing up level for play took: 0.000402
+[2020.06.24-04.29.12:821][909]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.06.24-04.29.12:822][909]PIE: 서버가 로그인했습니다.
+[2020.06.24-04.29.12:823][909]PIE: 에디터에서 플레이 총 시작 시간 0.148초입니다.
+[2020.06.24-04.29.17:909][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-04.29.17:909][513]LogWorld: BeginTearingDown for /Game/Dev/Maps/Title/UEDPIE_0_Title
+[2020.06.24-04.29.17:909][513]LogWorld: UWorld::CleanupWorld for Title, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-04.29.17:909][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.29.17:917][513]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.24-04.29.17:921][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.29.17:962][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-04.29.17:963][513]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002644357C800), frame # 81513
+[2020.06.24-04.29.17:963][513]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000264B7194540), frame # 81513
+[2020.06.24-04.29.17:965][513]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.06.24-04.29.17:987][514]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.06.24-04.29.21:856][973]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2020.06.24-04.29.38:553][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.06.24-04.29.44:900][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.06.24-04.29.45:485][739]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2020.06.24-04.29.46:714][884]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.24-04.29.47:656][996]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.24-04.29.50:315][314]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.24-04.29.58:953][337]LogActorFactory: Actor Factory created Sphere
+[2020.06.24-04.29.59:598][413]LogActorFactory: Actor Factory created Sphere
+[2020.06.24-04.30.03:884][917]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2020.06.24-04.30.05:115][ 60]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.06.24-04.30.05:127][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.24-04.30.05:127][ 60]PIE: New page: PIE 세션: Title (2020. 6. 24. 오후 10:30:05)
+[2020.06.24-04.30.05:127][ 60]LogPlayLevel: Creating play world package: /Game/Dev/Maps/Title/UEDPIE_0_Title
+[2020.06.24-04.30.05:128][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001274s)
+[2020.06.24-04.30.05:129][ 60]LogAIModule: Creating AISystem for world Title
+[2020.06.24-04.30.05:129][ 60]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026422CE8C00), frame # 87060
+[2020.06.24-04.30.05:129][ 60]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000264B7969300), frame # 87060
+[2020.06.24-04.30.05:130][ 60]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2020.06.24-04.30.05:130][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dev/Maps/Title/Title.Title to /Game/Dev/Maps/Title/UEDPIE_0_Title.Title (0.002462s)
+[2020.06.24-04.30.05:159][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.06.24-04.30.05:160][ 60]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.24-04.30.05:160][ 60]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.24-04.30.05:160][ 60]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.24-04.30.05:161][ 60]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.24-04.30.05:161][ 60]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.24-04.30.05:161][ 60]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.24-04.30.05:161][ 60]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.24-04.30.05:161][ 60]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.24-04.30.05:161][ 60]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.24-04.30.05:161][ 60]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.24-04.30.05:172][ 60]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.24-04.30.05:172][ 60]LogAudioMixer: Display: 1: FrontRight
+[2020.06.24-04.30.05:209][ 60]LogAudioMixer: Display: Using Audio Device T23C350(2- NVIDIA High Definition Audio)
+[2020.06.24-04.30.05:209][ 60]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.24-04.30.05:209][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.24-04.30.05:209][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.24-04.30.05:210][ 60]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.24-04.30.05:222][ 60]LogInit: FAudioDevice initialized.
+[2020.06.24-04.30.05:227][ 60]LogLoad: Game class is 'BP_TitleGM_C'
+[2020.06.24-04.30.05:228][ 60]LogWorld: Bringing World /Game/Dev/Maps/Title/UEDPIE_0_Title.Title up for play (max tick rate 0) at 2020.06.24-13.30.05
+[2020.06.24-04.30.05:228][ 60]LogWorld: Bringing up level for play took: 0.000463
+[2020.06.24-04.30.05:228][ 60]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.06.24-04.30.05:230][ 60]PIE: 서버가 로그인했습니다.
+[2020.06.24-04.30.05:231][ 60]PIE: 에디터에서 플레이 총 시작 시간 0.105초입니다.
+[2020.06.24-04.30.10:919][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-04.30.10:919][737]LogWorld: BeginTearingDown for /Game/Dev/Maps/Title/UEDPIE_0_Title
+[2020.06.24-04.30.10:919][737]LogWorld: UWorld::CleanupWorld for Title, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-04.30.10:920][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.30.10:925][737]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.24-04.30.10:928][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.30.10:969][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-04.30.10:970][737]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000264B7969300), frame # 87737
+[2020.06.24-04.30.10:970][737]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026422CE8C00), frame # 87737
+[2020.06.24-04.30.10:972][737]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.06.24-04.30.10:994][738]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.06.24-04.30.13:616][ 46]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.06.24-04.30.13:628][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.24-04.30.13:628][ 46]PIE: New page: PIE 세션: Title (2020. 6. 24. 오후 10:30:13)
+[2020.06.24-04.30.13:666][ 46]LogPlayLevel: Creating play world package: /Game/Dev/Maps/Title/UEDPIE_0_Title
+[2020.06.24-04.30.13:668][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001064s)
+[2020.06.24-04.30.13:668][ 46]LogAIModule: Creating AISystem for world Title
+[2020.06.24-04.30.13:668][ 46]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000264B7B17000), frame # 88046
+[2020.06.24-04.30.13:668][ 46]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000264B7969440), frame # 88046
+[2020.06.24-04.30.13:668][ 46]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2020.06.24-04.30.13:668][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dev/Maps/Title/Title.Title to /Game/Dev/Maps/Title/UEDPIE_0_Title.Title (0.002017s)
+[2020.06.24-04.30.13:696][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.06.24-04.30.13:697][ 46]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.24-04.30.13:697][ 46]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.24-04.30.13:697][ 46]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.24-04.30.13:697][ 46]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.24-04.30.13:697][ 46]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.24-04.30.13:697][ 46]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.24-04.30.13:697][ 46]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.24-04.30.13:697][ 46]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.24-04.30.13:697][ 46]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.24-04.30.13:697][ 46]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.24-04.30.13:709][ 46]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.24-04.30.13:709][ 46]LogAudioMixer: Display: 1: FrontRight
+[2020.06.24-04.30.13:744][ 46]LogAudioMixer: Display: Using Audio Device T23C350(2- NVIDIA High Definition Audio)
+[2020.06.24-04.30.13:744][ 46]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.24-04.30.13:744][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.24-04.30.13:744][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.24-04.30.13:744][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.24-04.30.13:755][ 46]LogInit: FAudioDevice initialized.
+[2020.06.24-04.30.13:766][ 46]LogLoad: Game class is 'BP_TitleGM_C'
+[2020.06.24-04.30.13:767][ 46]LogWorld: Bringing World /Game/Dev/Maps/Title/UEDPIE_0_Title.Title up for play (max tick rate 0) at 2020.06.24-13.30.13
+[2020.06.24-04.30.13:767][ 46]LogWorld: Bringing up level for play took: 0.000392
+[2020.06.24-04.30.13:767][ 46]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.06.24-04.30.13:769][ 46]PIE: 서버가 로그인했습니다.
+[2020.06.24-04.30.13:770][ 46]PIE: 에디터에서 플레이 총 시작 시간 0.144초입니다.
+[2020.06.24-04.30.23:868][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-04.30.23:869][251]LogWorld: BeginTearingDown for /Game/Dev/Maps/Title/UEDPIE_0_Title
+[2020.06.24-04.30.23:869][251]LogWorld: UWorld::CleanupWorld for Title, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-04.30.23:869][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.30.23:878][251]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.24-04.30.23:882][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.30.23:906][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-04.30.23:921][251]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000264B7969440), frame # 89251
+[2020.06.24-04.30.23:921][251]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000264B7B17000), frame # 89251
+[2020.06.24-04.30.23:924][251]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.06.24-04.30.23:945][252]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.06.24-04.30.42:671][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.06.24-04.31.01:305][702]LogEditorViewport: Clicking Background
+[2020.06.24-04.31.24:807][488]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Sun)
+[2020.06.24-04.32.20:215][ 30]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Sun)
+[2020.06.24-04.32.30:957][301]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Sun)
+[2020.06.24-04.32.56:217][233]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Sun)
+[2020.06.24-04.33.20:132][ 95]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2020.06.24-04.34.09:014][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.06.24-04.34.09:749][892]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2020.06.24-04.34.20:374][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2020.06.24-04.34.25:842][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.06.24-04.34.31:140][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.06.24-04.34.35:691][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.06.24-04.34.36:446][958]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2020.06.24-04.34.38:127][157]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2020.06.24-04.34.39:523][323]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.06.24-04.34.39:535][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.24-04.34.39:535][323]PIE: New page: PIE 세션: Title (2020. 6. 24. 오후 10:34:39)
+[2020.06.24-04.34.39:566][323]LogPlayLevel: Creating play world package: /Game/Dev/Maps/Title/UEDPIE_0_Title
+[2020.06.24-04.34.39:567][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001440s)
+[2020.06.24-04.34.39:568][323]LogAIModule: Creating AISystem for world Title
+[2020.06.24-04.34.39:568][323]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000264B74C7E00), frame # 119323
+[2020.06.24-04.34.39:568][323]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000264B79696C0), frame # 119323
+[2020.06.24-04.34.39:568][323]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2020.06.24-04.34.39:568][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dev/Maps/Title/Title.Title to /Game/Dev/Maps/Title/UEDPIE_0_Title.Title (0.002472s)
+[2020.06.24-04.34.39:599][323]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.06.24-04.34.39:602][323]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.24-04.34.39:602][323]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.24-04.34.39:602][323]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.24-04.34.39:602][323]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.24-04.34.39:602][323]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.24-04.34.39:602][323]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.24-04.34.39:602][323]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.24-04.34.39:602][323]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.24-04.34.39:602][323]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.24-04.34.39:602][323]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.24-04.34.39:614][323]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.24-04.34.39:614][323]LogAudioMixer: Display: 1: FrontRight
+[2020.06.24-04.34.39:651][323]LogAudioMixer: Display: Using Audio Device T23C350(2- NVIDIA High Definition Audio)
+[2020.06.24-04.34.39:652][323]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.24-04.34.39:652][323]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.24-04.34.39:652][323]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.24-04.34.39:652][323]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.24-04.34.39:663][323]LogInit: FAudioDevice initialized.
+[2020.06.24-04.34.39:667][323]LogLoad: Game class is 'BP_TitleGM_C'
+[2020.06.24-04.34.39:668][323]LogWorld: Bringing World /Game/Dev/Maps/Title/UEDPIE_0_Title.Title up for play (max tick rate 0) at 2020.06.24-13.34.39
+[2020.06.24-04.34.39:668][323]LogWorld: Bringing up level for play took: 0.000429
+[2020.06.24-04.34.39:668][323]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.06.24-04.34.39:671][323]PIE: 서버가 로그인했습니다.
+[2020.06.24-04.34.39:671][323]PIE: 에디터에서 플레이 총 시작 시간 0.139초입니다.
+[2020.06.24-04.34.41:198][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-04.34.41:198][499]LogWorld: BeginTearingDown for /Game/Dev/Maps/Title/UEDPIE_0_Title
+[2020.06.24-04.34.41:198][499]LogWorld: UWorld::CleanupWorld for Title, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-04.34.41:198][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.34.41:205][499]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.24-04.34.41:208][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-04.34.41:251][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-04.34.41:252][499]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000264B74C7E00), frame # 119499
+[2020.06.24-04.34.41:252][499]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000264B79696C0), frame # 119499
+[2020.06.24-04.34.41:255][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.06.24-04.34.41:278][500]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.06.24-04.35.13:560][312]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2020.06.24-04.35.14:210][386]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2020.06.24-04.35.15:089][490]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Sun)
+[2020.06.24-04.35.38:999][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.06.24-04.35.39:784][371]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2020.06.24-04.35.45:900][102]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Sun)
+[2020.06.24-04.35.46:651][189]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Sun)
+[2020.06.24-04.36.27:228][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.06.24-04.36.43:761][835]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2020.06.24-04.36.44:659][940]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2020.06.24-04.39.46:477][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.06.24-04.40.06:905][347]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2020.06.24-04.40.44:968][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.06.24-04.40.46:182][ 38]LogSlate: Window '콘텐츠 저장' being destroyed
+[2020.06.24-04.40.46:208][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Title/Title" FILE="../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.24-04.40.46:235][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.06.24-04.40.46:249][ 38]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/Title25C854504E493D9A93973CBF56142DEF.tmp' to '../../../../../../dev/FlyingDrone/Content/Dev/Maps/Title/Title.umap'
+[2020.06.24-04.40.46:267][ 38]LogFileHelpers: Saving map 'Title' took 0.058
+[2020.06.24-04.40.46:283][ 38]AssetCheck: New page: 애셋 저장: Title
+[2020.06.24-04.40.46:283][ 38]LogContentValidation: Display: World /Game/Dev/Maps/Title/Title.Title 유효성 검사
+[2020.06.24-04.41.34:287][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.06.24-04.41.35:387][457]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2020.06.24-04.42.16:515][297]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2020.06.24-04.42.16:535][297]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2020.06.24-04.42.16:535][297]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2020.06.24-04.42.16:535][297]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.06.24-04.42.16:535][297]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2020.06.24-04.42.16:535][297]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.06.24-04.42.16:535][297]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.06.24-04.42.16:535][297]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2020.06.24-04.42.16:554][297]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2020.06.24-04.42.16:574][297]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2020.06.24-04.42.16:603][297]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 54
+[2020.06.24-04.42.16:603][297]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 47
+[2020.06.24-04.42.16:603][297]LogMaterial: Display: Missing cached shader map for material ColorMaskBrushMaterial, compiling. 
+[2020.06.24-04.42.16:619][297]LogMaterial: Display: Missing cached shader map for material LandscapeDirtyMaterial, compiling. 
+[2020.06.24-04.42.16:647][297]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2020.06.24-04.42.16:689][297]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.06.24-04.42.16:701][297]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.06.24-04.42.16:715][297]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.06.24-04.42.16:730][297]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.06.24-04.42.16:749][297]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2020.06.24-04.42.16:764][297]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.06.24-04.42.16:779][297]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2020.06.24-04.42.16:794][297]LogTexture: Display: 텍스처 빌드: Texture2D_2 (G8, 128X128)
+[2020.06.24-04.42.17:170][320]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 208
+[2020.06.24-04.42.17:228][323]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 198
+[2020.06.24-04.42.17:305][329]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 188
+[2020.06.24-04.42.17:317][330]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 178
+[2020.06.24-04.42.17:342][332]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 168
+[2020.06.24-04.42.17:355][333]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 158
+[2020.06.24-04.42.18:976][410]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 148
+[2020.06.24-04.42.18:976][410]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 138
+[2020.06.24-04.42.19:679][441]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 128
+[2020.06.24-04.42.19:747][446]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 118
+[2020.06.24-04.42.19:764][447]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 108
+[2020.06.24-04.42.19:856][450]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 98
+[2020.06.24-04.42.20:048][461]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 88
+[2020.06.24-04.42.20:355][472]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 78
+[2020.06.24-04.42.21:341][530]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 68
+[2020.06.24-04.42.21:535][546]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 59
+[2020.06.24-04.42.22:208][594]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 51
+[2020.06.24-04.42.22:283][600]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 44
+[2020.06.24-04.42.22:540][613]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 38
+[2020.06.24-04.42.22:779][635]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 33
+[2020.06.24-04.42.22:837][640]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 28
+[2020.06.24-04.42.22:934][647]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 24
+[2020.06.24-04.42.23:695][694]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 20
+[2020.06.24-04.42.23:740][697]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 17
+[2020.06.24-04.42.23:798][701]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 14
+[2020.06.24-04.42.24:002][714]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 12
+[2020.06.24-04.42.24:013][715]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2020.06.24-04.42.24:048][718]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.06.24-04.42.24:160][726]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.06.24-04.42.24:185][727]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.06.24-04.42.24:185][727]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.06.24-04.42.24:363][739]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.06.24-04.42.24:390][741]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2020.06.24-04.42.24:465][747]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2020.06.24-04.42.40:759][511]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.06.24-04.42.42:156][671]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.06.24-04.42.48:544][387]LogTexture: Display: 텍스처 빌드: Texture2D_3 (G8, 128X128)
+[2020.06.24-04.42.54:205][ 22]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2020.06.24-04.43.13:856][590]Cmd: DELETE
+[2020.06.24-04.43.13:856][590]Cmd: ACTOR DELETE
+[2020.06.24-04.43.13:857][590]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.24-04.43.13:895][590]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.06.24-04.43.13:897][590]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2020.06.24-04.45.08:813][314]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2020.06.24-04.45.09:386][369]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2020.06.24-04.45.09:939][427]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2020.06.24-04.50.45:132][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.06.24-04.50.45:135][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Title/Title" FILE="../../../../../../dev/FlyingDrone/Saved/Autosaves/Game/Dev/Maps/Title/Title_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.06.24-04.50.45:161][670]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/Title_Auto208F8525F4A63962F18B948801D1159A8.tmp' to '../../../../../../dev/FlyingDrone/Saved/Autosaves/Game/Dev/Maps/Title/Title_Auto2.umap'
+[2020.06.24-04.50.45:162][670]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dev/Maps/Title/Title' took 0.061
+[2020.06.24-04.50.45:162][670]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.061
+[2020.06.24-05.10.40:058][232]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{fefce305-fed1-48fa-af35-887ba5089b56}.
+[2020.06.24-05.10.40:058][232]LogTemp: Resetting audio stream to device id 
+[2020.06.24-05.10.40:081][232]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.24-05.10.40:081][232]LogAudioMixer: Display: 1: FrontRight
+[2020.06.24-05.14.52:024][989]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky)
+[2020.06.24-05.14.52:382][ 23]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.06.24-05.14.58:773][744]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.06.24-05.15.00:687][956]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.06.24-05.15.06:337][591]LogTexture: Display: 텍스처 빌드: Texture2D_0 (BGRA8, 64X64)
+[2020.06.24-05.15.06:385][591]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.06.24-05.15.31:901][623]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.06.24-05.16.40:689][773]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 16X16)
+[2020.06.24-05.16.40:690][773]LogTexture: Display: 텍스처 빌드: Texture2D_1 (BGRA8, 16X16)
+[2020.06.24-05.16.40:691][773]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 16X16)
+[2020.06.24-05.16.40:692][773]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 16X16)
+[2020.06.24-05.16.40:692][773]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 16X16)
+[2020.06.24-05.16.40:693][773]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 16X16)
+[2020.06.24-05.16.40:694][773]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 16X16)
+[2020.06.24-05.16.40:695][773]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 16X16)
+[2020.06.24-05.16.40:695][773]LogTexture: Display: 텍스처 빌드: Texture2D_5 (BGRA8, 16X16)
+[2020.06.24-05.16.40:696][773]LogTexture: Display: 텍스처 빌드: Texture2D_5 (BGRA8, 16X16)
+[2020.06.24-05.16.40:696][773]LogTexture: Display: 텍스처 빌드: Texture2D_6 (BGRA8, 16X16)
+[2020.06.24-05.16.40:698][773]LogTexture: Display: 텍스처 빌드: Texture2D_6 (BGRA8, 16X16)
+[2020.06.24-05.16.40:698][773]LogTexture: Display: 텍스처 빌드: Texture2D_7 (BGRA8, 16X16)
+[2020.06.24-05.16.40:699][773]LogTexture: Display: 텍스처 빌드: Texture2D_7 (BGRA8, 16X16)
+[2020.06.24-05.16.40:700][773]LogTexture: Display: 텍스처 빌드: Texture2D_8 (BGRA8, 16X16)
+[2020.06.24-05.16.40:700][773]LogTexture: Display: 텍스처 빌드: Texture2D_8 (BGRA8, 16X16)
+[2020.06.24-05.16.40:701][773]LogTexture: Display: 텍스처 빌드: Texture2D_9 (BGRA8, 16X16)
+[2020.06.24-05.16.40:702][773]LogTexture: Display: 텍스처 빌드: Texture2D_9 (BGRA8, 16X16)
+[2020.06.24-05.16.40:702][773]LogTexture: Display: 텍스처 빌드: Texture2D_10 (BGRA8, 16X16)
+[2020.06.24-05.16.40:703][773]LogTexture: Display: 텍스처 빌드: Texture2D_10 (BGRA8, 16X16)
+[2020.06.24-05.16.40:703][773]LogTexture: Display: 텍스처 빌드: Texture2D_11 (BGRA8, 16X16)
+[2020.06.24-05.16.40:704][773]LogTexture: Display: 텍스처 빌드: Texture2D_11 (BGRA8, 16X16)
+[2020.06.24-05.16.40:705][773]LogTexture: Display: 텍스처 빌드: Texture2D_12 (BGRA8, 16X16)
+[2020.06.24-05.16.40:705][773]LogTexture: Display: 텍스처 빌드: Texture2D_12 (BGRA8, 16X16)
+[2020.06.24-05.16.40:706][773]LogTexture: Display: 텍스처 빌드: Texture2D_13 (BGRA8, 16X16)
+[2020.06.24-05.16.40:706][773]LogTexture: Display: 텍스처 빌드: Texture2D_13 (BGRA8, 16X16)
+[2020.06.24-05.16.40:707][773]LogTexture: Display: 텍스처 빌드: Texture2D_14 (BGRA8, 16X16)
+[2020.06.24-05.16.40:708][773]LogTexture: Display: 텍스처 빌드: Texture2D_14 (BGRA8, 16X16)
+[2020.06.24-05.16.40:708][773]LogTexture: Display: 텍스처 빌드: Texture2D_15 (BGRA8, 16X16)
+[2020.06.24-05.16.40:709][773]LogTexture: Display: 텍스처 빌드: Texture2D_15 (BGRA8, 16X16)
+[2020.06.24-05.16.40:709][773]LogTexture: Display: 텍스처 빌드: Texture2D_16 (BGRA8, 16X16)
+[2020.06.24-05.16.40:710][773]LogTexture: Display: 텍스처 빌드: Texture2D_16 (BGRA8, 16X16)
+[2020.06.24-05.16.43:126][ 52]LogTexture: Display: 텍스처 빌드: Texture2D_17 (BGRA8, 16X16)
+[2020.06.24-05.17.08:810][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2020.06.24-05.17.08:814][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dev/Maps/Title/Title" FILE="../../../../../../dev/FlyingDrone/Saved/Autosaves/Game/Dev/Maps/Title/Title_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.06.24-05.17.08:822][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_4 (BGRA8, 16X16)
+[2020.06.24-05.17.08:822][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_3 (BGRA8, 16X16)
+[2020.06.24-05.17.08:823][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_2 (BGRA8, 16X16)
+[2020.06.24-05.17.08:823][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_8 (BGRA8, 16X16)
+[2020.06.24-05.17.08:826][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_7 (BGRA8, 16X16)
+[2020.06.24-05.17.08:826][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_6 (BGRA8, 16X16)
+[2020.06.24-05.17.08:827][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_5 (BGRA8, 16X16)
+[2020.06.24-05.17.08:827][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_12 (BGRA8, 16X16)
+[2020.06.24-05.17.08:828][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_11 (BGRA8, 16X16)
+[2020.06.24-05.17.08:828][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_10 (BGRA8, 16X16)
+[2020.06.24-05.17.08:829][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_9 (BGRA8, 16X16)
+[2020.06.24-05.17.08:829][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_15 (BGRA8, 16X16)
+[2020.06.24-05.17.08:829][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_14 (BGRA8, 16X16)
+[2020.06.24-05.17.08:830][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_13 (BGRA8, 16X16)
+[2020.06.24-05.17.08:830][ 79]LogTexture: Display: 텍스처 빌드: Texture2D_17 (BGRA8, 16X16)
+[2020.06.24-05.17.08:873][ 79]LogSavePackage: Moving '../../../../../../dev/FlyingDrone/Saved/Title_Auto393A615BC429B28AEE4781789012175ED.tmp' to '../../../../../../dev/FlyingDrone/Saved/Autosaves/Game/Dev/Maps/Title/Title_Auto3.umap'
+[2020.06.24-05.17.08:875][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dev/Maps/Title/Title' took 0.094
+[2020.06.24-05.17.08:875][ 79]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.094
+[2020.06.24-05.17.29:972][526]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.06.24-05.17.42:944][ 38]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.06.24-05.17.42:956][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.24-05.17.42:956][ 38]PIE: New page: PIE 세션: Title (2020. 6. 24. 오후 11:17:42)
+[2020.06.24-05.17.42:956][ 38]LogPlayLevel: Creating play world package: /Game/Dev/Maps/Title/UEDPIE_0_Title
+[2020.06.24-05.17.42:964][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008220s)
+[2020.06.24-05.17.42:965][ 38]LogAIModule: Creating AISystem for world Title
+[2020.06.24-05.17.42:965][ 38]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026444F1B800), frame # 239038
+[2020.06.24-05.17.42:965][ 38]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000264B77A56C0), frame # 239038
+[2020.06.24-05.17.42:965][ 38]LogPlayLevel: PIE: World Init took: (0.001275s)
+[2020.06.24-05.17.42:965][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dev/Maps/Title/Title.Title to /Game/Dev/Maps/Title/UEDPIE_0_Title.Title (0.009593s)
+[2020.06.24-05.17.42:993][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.06.24-05.17.42:996][ 38]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.24-05.17.42:996][ 38]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.24-05.17.42:996][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.24-05.17.42:996][ 38]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.24-05.17.42:996][ 38]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.24-05.17.42:996][ 38]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.24-05.17.42:996][ 38]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.24-05.17.42:996][ 38]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.24-05.17.42:997][ 38]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.24-05.17.42:997][ 38]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.24-05.17.43:009][ 38]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.24-05.17.43:009][ 38]LogAudioMixer: Display: 1: FrontRight
+[2020.06.24-05.17.43:046][ 38]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2020.06.24-05.17.43:047][ 38]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.24-05.17.43:047][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.24-05.17.43:047][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.24-05.17.43:048][ 38]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.24-05.17.43:059][ 38]LogInit: FAudioDevice initialized.
+[2020.06.24-05.17.43:068][ 38]LogLoad: Game class is 'BP_TitleGM_C'
+[2020.06.24-05.17.43:069][ 38]LogWorld: Bringing World /Game/Dev/Maps/Title/UEDPIE_0_Title.Title up for play (max tick rate 0) at 2020.06.24-14.17.43
+[2020.06.24-05.17.43:069][ 38]LogWorld: Bringing up level for play took: 0.000725
+[2020.06.24-05.17.43:069][ 38]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.06.24-05.17.43:072][ 38]PIE: 서버가 로그인했습니다.
+[2020.06.24-05.17.43:073][ 38]PIE: 에디터에서 플레이 총 시작 시간 0.119초입니다.
+[2020.06.24-05.17.51:598][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-05.17.51:598][ 55]LogWorld: BeginTearingDown for /Game/Dev/Maps/Title/UEDPIE_0_Title
+[2020.06.24-05.17.51:598][ 55]LogWorld: UWorld::CleanupWorld for Title, bSessionEnded=true, bCleanupResources=true
+[2020.06.24-05.17.51:599][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-05.17.51:609][ 55]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.24-05.17.51:613][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.24-05.17.51:653][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.24-05.17.51:654][ 55]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026444F1B800), frame # 240055
+[2020.06.24-05.17.51:654][ 55]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000264B77A56C0), frame # 240055
+[2020.06.24-05.17.51:657][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.06.24-05.17.51:681][ 56]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.06.24-05.20.12:959][979]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.06.24-05.20.16:104][320]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.06.24-05.20.16:580][320]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.475 s
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: === Handled ensure: ===
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: 
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: Ensure condition failed: FText::FindText(L"LandscapeEditor", Name, Result) [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetails.cpp] [Line: 352]
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: 
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: Stack: 
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc450d9ec9 UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc44fa2cf2 UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc44f9c66d UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc44f7c5bd UE4Editor-LandscapeEditor.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc742ee986 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc7432563d UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc742d3ba2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc742f16de UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc743258a0 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc74325924 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc71a8ee5e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc598eac29 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc5988f921 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc7423f1d8 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc7432aa71 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc74331240 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc7430a857 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc743a1f9e UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc743bb19e UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc743329b5 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc74202d68 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc742868ef UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc7426f3d2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc74262332 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc96697f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc96685c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc9669a609 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc966817d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffcc3915c0d USER32.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffcc3915602 USER32.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffc9669bb24 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ff7950e68c4 UE4Editor.exe!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ff7950fba7c UE4Editor.exe!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ff7950fbb5a UE4Editor.exe!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ff79510e31d UE4Editor.exe!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ff79511145a UE4Editor.exe!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffcc41b7bd4 KERNEL32.DLL!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: [Callstack] 0x00007ffcc4a6ce51 ntdll.dll!UnknownFunction []
+[2020.06.24-05.20.16:580][320]LogOutputDevice: Error: 
